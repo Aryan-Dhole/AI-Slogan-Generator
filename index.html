@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Slogan Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-dark text-light text-center m-5 p-5">
+
+    <div class="container">
+        <h1 class="mb-4">AI Slogan Generator</h1>
+
+        <input type="text" id="topicInput" class="form-control mb-3" placeholder="Discribe your startup Idea...">
+        <button class="btn btn-outline-warning" id="generateBtn">Get Slogan</button>
+
+        <div id="spinner" class="mt-4" style="display: none;">
+            <div class="spinner-border text-light" role="status"></div>
+            <p>Generating...</p>
+        </div>
+
+        <div id="output" class="mt-4 fs-5"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
